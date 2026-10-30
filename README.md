@@ -32,6 +32,7 @@ LLM이 퍼징 하네스를 생성할 때 API 선언과 빌드 조건을 함께 �
 
 Bazel XML에서 대상과 의존성, 컴파일 옵션을 추출했습니다. 이후 CMake의 `compile_commands.json`에서 파일별 플래그를 읽는 기능과 대상 프로필을 추가하고, 비-Bazel 빌드에서도 KB를 하네스 계획에 연결하도록 확장했습니다. 평가용 정답셋 생성 경로에서 컴파일 플래그가 누락되는 문제도 수정했습니다.
 
+- [프로젝트 개발 브랜치: dev](https://github.com/sesezz/LogosFuzz/tree/dev)
 - [구현 브랜치: feature/generic-embedded](https://github.com/sesezz/LogosFuzz/tree/feature/generic-embedded)
 - [대상 프로필과 추출기 PR #71](https://github.com/sesezz/LogosFuzz/pull/71)
 - [KB 연결과 libsndfile 평가 PR #76](https://github.com/sesezz/LogosFuzz/pull/76)
